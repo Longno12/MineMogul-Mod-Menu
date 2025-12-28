@@ -1,0 +1,25 @@
+HOW TO INJECT
+=============
+
+1. Launch MineMogul and wait until you are fully in-game.
+
+2. Open the folder where smi.exe and Mod.dll are located.
+
+3. Click the file directory bar, type "cmd", and press ENTER
+   (or Shift + Right Click in the folder and select "Open Command Prompt here").
+
+4. In the Command Prompt window, paste the following command while the game is open:
+
+smi.exe inject -p "MineMogul" -a "Mod.dll" -n Loading -c Loader -m Load
+
+5. Press ENTER and wait for the injection to complete.
+
+6. Once injected, press INSERT in-game to open the mod menu.
+
+
+NOTES
+-----
+
+- Make sure smi.exe and Mod.dll are in the same directory.
+- Run Command Prompt as Administrator if injection fails.
+- Close and reopen the game if the mod does not appear.
